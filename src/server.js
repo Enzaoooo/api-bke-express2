@@ -7,6 +7,6 @@ const app = express()
 app.use('/auth', authRouter)
 app.use('/account', accountRouter)
 
-app.listen(process.env.PORT, () => {
-    console.log(`Servidor Rodando no ambiente  ${ process.env.AMBIENTE }`)
+app.listen(3000, () => {
+    console.log(`Servidor Rodando no ambiente ${ process.env.AMBIENTE }`)
 })
