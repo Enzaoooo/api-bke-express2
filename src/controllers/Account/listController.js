@@ -1,4 +1,5 @@
-const listaUser = (req, res) => {
+const list = (req, res) => {
     res.json({message: "Rota de GET Account/List TESTE DEPLOY"})
 }
-export default listaUser
+
+export default list
