@@ -1,9 +1,9 @@
 import express from 'express'
-import createController from '../controllers/Account/createController'
-import listaController from '../controllers/Account/listaController'
-import puxaIdController from '../controllers/Account/puxaIdController'
-import putController from '../controllers/Account/putController'
-import deleteController from '../controllers/Account/deleteController'
+import createController from '../controllers/Account/createController.js'
+import listaController from '../controllers/Account/listaController.js'
+import puxaIdController from '../controllers/Account/puxaIdController.js'
+import putController from '../controllers/Account/putController.js'
+import deleteController from '../controllers/Account/deleteController.js'
 
 
 const router = express.Router()
